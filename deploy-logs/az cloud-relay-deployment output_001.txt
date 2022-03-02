@@ -1,0 +1,870 @@
+70fe23b1-9a8f-4745-b1cd-97a9d2487448
+654a93bb-725a-4fef-a563-2fe7f59a3dbc
+shubi
+kvfs
+CloudRelayInsight
+ASP-rgcloudrelaycompute-a613
+klima
+ASP-rgcloudrelaycompute-8c93
+klimafunktions
+rgcloudrelaycomputea16e
+
+
+az ad app create --display-name CloudRelayAPI
+{
+  "acceptMappedClaims": null,
+  "addIns": [],
+  "allowGuestsSignIn": null,
+  "allowPassthroughUsers": null,
+  "appId": "654a93bb-725a-4fef-a563-2fe7f59a3dbc",
+  "appLogoUrl": null,
+  "appPermissions": null,
+  "appRoles": [],
+  "applicationTemplateId": null,
+  "availableToOtherTenants": false,
+  "deletionTimestamp": null,
+  "displayName": "CloudRelayAPI",
+  "errorUrl": null,
+  "groupMembershipClaims": null,
+  "homepage": null,
+  "identifierUris": [],
+  "informationalUrls": {
+    "marketing": null,
+    "privacy": null,
+    "support": null,
+    "termsOfService": null
+  },
+  "isDeviceOnlyAuthSupported": null,
+  "keyCredentials": [],
+  "knownClientApplications": [],
+  "logo@odata.mediaContentType": "application/json;odata=minimalmetadata; charset=utf-8",
+  "logo@odata.mediaEditLink": "directoryObjects/23f9ec8f-d725-45c3-823f-3e69cbd2cd8c/Microsoft.DirectoryServices.Application/logo",
+  "logoUrl": null,
+  "logoutUrl": null,
+  "mainLogo@odata.mediaEditLink": "directoryObjects/23f9ec8f-d725-45c3-823f-3e69cbd2cd8c/Microsoft.DirectoryServices.Application/mainLogo",
+  "oauth2AllowIdTokenImplicitFlow": true,
+  "oauth2AllowImplicitFlow": false,
+  "oauth2AllowUrlPathMatching": false,
+  "oauth2Permissions": [
+    {
+      "adminConsentDescription": "Allow the application to access CloudRelayAPI on behalf of the signed-in user.",
+      "adminConsentDisplayName": "Access CloudRelayAPI",
+      "id": "fb58a531-170e-4781-8589-3921d31c7491",
+      "isEnabled": true,
+      "type": "User",
+      "userConsentDescription": "Allow the application to access CloudRelayAPI on your behalf.",
+      "userConsentDisplayName": "Access CloudRelayAPI",
+      "value": "user_impersonation"
+    }
+  ],
+  "oauth2RequirePostResponse": false,
+  "objectId": "23f9ec8f-d725-45c3-823f-3e69cbd2cd8c",
+  "objectType": "Application",
+  "odata.metadata": "https://graph.windows.net/70fe23b1-9a8f-4745-b1cd-97a9d2487448/$metadata#directoryObjects/@Element",
+  "odata.type": "Microsoft.DirectoryServices.Application",
+  "optionalClaims": null,
+  "orgRestrictions": [],
+  "parentalControlSettings": {
+    "countriesBlockedForMinors": [],
+    "legalAgeGroupRule": "Allow"
+  },
+  "passwordCredentials": [],
+  "preAuthorizedApplications": null,
+  "publicClient": null,
+  "publisherDomain": "vitek617.onmicrosoft.com",
+  "recordConsentConditions": null,
+  "replyUrls": [],
+  "requiredResourceAccess": [],
+  "samlMetadataUrl": null,
+  "signInAudience": "AzureADMyOrg",
+  "tokenEncryptionKeyId": null,
+  "wwwHomepage": null
+}
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+az ad app create --display-name CloudRelayAPI --password l0RtnocMe+sy$
+Found an existing application instance of "654a93bb-725a-4fef-a563-2fe7f59a3dbc". We will patch it
+{
+  "acceptMappedClaims": null,
+  "addIns": [],
+  "allowGuestsSignIn": null,
+  "allowPassthroughUsers": null,
+  "appId": "654a93bb-725a-4fef-a563-2fe7f59a3dbc",
+  "appLogoUrl": null,
+  "appPermissions": null,
+  "appRoles": [],
+  "applicationTemplateId": null,
+  "availableToOtherTenants": false,
+  "deletionTimestamp": null,
+  "displayName": "CloudRelayAPI",
+  "errorUrl": null,
+  "groupMembershipClaims": null,
+  "homepage": null,
+  "identifierUris": [],
+  "informationalUrls": {
+    "marketing": null,
+    "privacy": null,
+    "support": null,
+    "termsOfService": null
+  },
+  "isDeviceOnlyAuthSupported": null,
+  "keyCredentials": [],
+  "knownClientApplications": [],
+  "logo@odata.mediaEditLink": "directoryObjects/23f9ec8f-d725-45c3-823f-3e69cbd2cd8c/Microsoft.DirectoryServices.Application/logo",
+  "logoUrl": null,
+  "logoutUrl": null,
+  "mainLogo@odata.mediaEditLink": "directoryObjects/23f9ec8f-d725-45c3-823f-3e69cbd2cd8c/Microsoft.DirectoryServices.Application/mainLogo",
+  "oauth2AllowIdTokenImplicitFlow": true,
+  "oauth2AllowImplicitFlow": false,
+  "oauth2AllowUrlPathMatching": false,
+  "oauth2Permissions": [
+    {
+      "adminConsentDescription": "Allow the application to access CloudRelayAPI on behalf of the signed-in user.",
+      "adminConsentDisplayName": "Access CloudRelayAPI",
+      "id": "fb58a531-170e-4781-8589-3921d31c7491",
+      "isEnabled": true,
+      "type": "User",
+      "userConsentDescription": "Allow the application to access CloudRelayAPI on your behalf.",
+      "userConsentDisplayName": "Access CloudRelayAPI",
+      "value": "user_impersonation"
+    }
+  ],
+  "oauth2RequirePostResponse": false,
+  "objectId": "23f9ec8f-d725-45c3-823f-3e69cbd2cd8c",
+  "objectType": "Application",
+  "odata.metadata": "https://graph.windows.net/70fe23b1-9a8f-4745-b1cd-97a9d2487448/$metadata#directoryObjects/@Element",     
+  "odata.type": "Microsoft.DirectoryServices.Application",
+  "optionalClaims": null,
+  "orgRestrictions": [],
+  "parentalControlSettings": {
+    "countriesBlockedForMinors": [],
+    "legalAgeGroupRule": "Allow"
+  },
+  "passwordCredentials": [
+    {
+      "additionalProperties": null,
+      "customKeyIdentifier": null,
+      "endDate": "2023-02-27T16:17:36.308028+00:00",
+      "keyId": "56478bef-246c-4ad2-b403-e878f2aa2a71",
+      "startDate": "2022-02-28T16:17:36.308028+00:00",
+      "value": null
+    }
+  ],
+  "preAuthorizedApplications": null,
+  "publicClient": null,
+  "publisherDomain": "vitek617.onmicrosoft.com",
+  "recordConsentConditions": null,
+  "replyUrls": [],
+  "requiredResourceAccess": [],
+  "samlMetadataUrl": null,
+  "signInAudience": "AzureADMyOrg",
+  "tokenEncryptionKeyId": null,
+  "wwwHomepage": null
+}
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+az group create --name rg-cloudrelaygateway --location "North Central US"
+{
+  "id": "/subscriptions/c22cc58e-afd1-4353-8e2c-7964567abf3f/resourceGroups/rg-cloudrelaygateway",
+  "location": "northcentralus",
+  "managedBy": null,
+  "name": "rg-cloudrelaygateway",
+  "properties": {
+    "provisioningState": "Succeeded"
+  },
+  "tags": null,
+  "type": "Microsoft.Resources/resourceGroups"
+}
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+PS C:\Users\David\git\CloudRelay> az group deployment create `
+>> --handle-extended-json-format `
+>> --name CloudRelayGatewayDeployment `
+>> --resource-group rg-cloudrelaygateway `
+>> --template-file .\deploy\Distech.CloudRelay.ARM\Gateway\Distech.CloudRelay.Gateway.json `      
+>> --parameters .\deploy\Distech.CloudRelay.ARM\Gateway\Distech.CloudRelay.Gateway.Parameters.json
+Option '--handle-extended-json-format/-j' has been deprecated and will be removed in a future release.
+This command is implicitly deprecated because command group 'group deployment' is deprecated and will be removed in a future release. Use 'deployment group' instead.
+Please provide string value for 'iotHubName' (? for help): shubi        
+Please provide string value for 'storageAccountName' (? for help): kvfs
+{
+  "id": "/subscriptions/c22cc58e-afd1-4353-8e2c-7964567abf3f/resourceGroups/rg-cloudrelaygateway/providers/Microsoft.Resources/deployments/CloudRelayGatewayDeployment",
+  "location": null,                                                                                           
+  "name": "CloudRelayGatewayDeployment",
+  "properties": {
+    "correlationId": "5185f0b2-19b9-43a6-8fc9-edf77034f374",
+    "debugSetting": null,
+    "dependencies": [                                                                                      No 
+      {
+        "dependsOn": [
+          {
+            "id": "/subscriptions/c22cc58e-afd1-4353-8e2c-7964567abf3f/resourceGroups/rg-cloudrelaygateway/providers/Microsoft.Storage/storageAccounts/kvfs",
+            "resourceGroup": "rg-cloudrelaygateway",
+            "resourceName": "kvfs",
+            "resourceType": "Microsoft.Storage/storageAccounts"
+          }
+        ],
+        "id": "/subscriptions/c22cc58e-afd1-4353-8e2c-7964567abf3f/resourceGroups/rg-cloudrelaygateway/providers/Microsoft.Storage/storageAccounts/kvfs/blobServices/default/containers/iothub-fileupload",
+        "resourceGroup": "rg-cloudrelaygateway",
+        "resourceName": "kvfs/default/iothub-fileupload",
+        "resourceType": "Microsoft.Storage/storageAccounts/blobServices/containers"
+      },
+      {
+        "dependsOn": [
+          {
+            "id": "/subscriptions/c22cc58e-afd1-4353-8e2c-7964567abf3f/resourceGroups/rg-cloudrelaygateway/providers/Microsoft.Storage/storageAccounts/kvfs",
+            "resourceGroup": "rg-cloudrelaygateway",
+            "resourceName": "kvfs",
+            "resourceType": "Microsoft.Storage/storageAccounts"
+          }
+        ],
+        "id": "/subscriptions/c22cc58e-afd1-4353-8e2c-7964567abf3f/resourceGroups/rg-cloudrelaygateway/providers/Microsoft.Storage/storageAccounts/kvfs/blobServices/default/containers/cloud-relay-fileupload",      
+        "resourceGroup": "rg-cloudrelaygateway",
+        "resourceName": "kvfs/default/cloud-relay-fileupload",
+        "resourceType": "Microsoft.Storage/storageAccounts/blobServices/containers"
+      },
+      {
+        "dependsOn": [
+          {
+            "id": "/subscriptions/c22cc58e-afd1-4353-8e2c-7964567abf3f/resourceGroups/rg-cloudrelaygateway/providers/Microsoft.Storage/storageAccounts/kvfs",
+            "resourceGroup": "rg-cloudrelaygateway",
+            "resourceName": "kvfs",
+            "resourceType": "Microsoft.Storage/storageAccounts"
+          },
+          {
+            "actionName": "listKeys",
+            "apiVersion": "2019-04-01",
+            "id": "/subscriptions/c22cc58e-afd1-4353-8e2c-7964567abf3f/resourceGroups/rg-cloudrelaygateway/providers/Microsoft.Storage/storageAccounts/kvfs",
+            "resourceGroup": "rg-cloudrelaygateway",
+            "resourceName": "kvfs",
+            "resourceType": "Microsoft.Storage/storageAccounts"
+          }
+        ],
+        "id": "/subscriptions/c22cc58e-afd1-4353-8e2c-7964567abf3f/resourceGroups/rg-cloudrelaygateway/providers/Microsoft.Devices/IotHubs/shubi",
+        "resourceGroup": "rg-cloudrelaygateway",
+        "resourceName": "shubi",
+        "resourceType": "Microsoft.Devices/IotHubs"
+      },
+      {
+        "dependsOn": [
+          {
+            "id": "/subscriptions/c22cc58e-afd1-4353-8e2c-7964567abf3f/resourceGroups/rg-cloudrelaygateway/providers/Microsoft.Devices/IotHubs/shubi",
+            "resourceGroup": "rg-cloudrelaygateway",
+            "resourceName": "shubi",
+            "resourceType": "Microsoft.Devices/IotHubs"
+          }
+        ],
+        "id": "/subscriptions/c22cc58e-afd1-4353-8e2c-7964567abf3f/resourceGroups/rg-cloudrelaygateway/providers/Microsoft.Devices/IotHubs/shubi/eventHubEndpoints/events/ConsumerGroups/scheduled-calls",
+        "resourceGroup": "rg-cloudrelaygateway",
+        "resourceName": "shubi/events/scheduled-calls",
+        "resourceType": "Microsoft.Devices/IotHubs/eventHubEndpoints/ConsumerGroups"
+      }
+    ],
+    "duration": "PT2M29.5407454S",
+    "error": null,
+    "mode": "Incremental",
+    "onErrorDeployment": null,
+    "outputResources": [
+      {
+        "id": "/subscriptions/c22cc58e-afd1-4353-8e2c-7964567abf3f/resourceGroups/rg-cloudrelaygateway/providers/Microsoft.Devices/IotHubs/shubi",
+        "resourceGroup": "rg-cloudrelaygateway"
+      },
+      {
+        "id": "/subscriptions/c22cc58e-afd1-4353-8e2c-7964567abf3f/resourceGroups/rg-cloudrelaygateway/providers/Microsoft.Devices/IotHubs/shubi/eventHubEndpoints/events/ConsumerGroups/scheduled-calls",
+        "resourceGroup": "rg-cloudrelaygateway"
+      },
+      {
+        "id": "/subscriptions/c22cc58e-afd1-4353-8e2c-7964567abf3f/resourceGroups/rg-cloudrelaygateway/providers/Microsoft.Storage/storageAccounts/kvfs",
+        "resourceGroup": "rg-cloudrelaygateway"
+      },
+      {
+        "id": "/subscriptions/c22cc58e-afd1-4353-8e2c-7964567abf3f/resourceGroups/rg-cloudrelaygateway/providers/Microsoft.Storage/storageAccounts/kvfs/blobServices/default/containers/cloud-relay-fileupload",      
+        "resourceGroup": "rg-cloudrelaygateway"
+      },
+      {
+        "id": "/subscriptions/c22cc58e-afd1-4353-8e2c-7964567abf3f/resourceGroups/rg-cloudrelaygateway/providers/Microsoft.Storage/storageAccounts/kvfs/blobServices/default/containers/iothub-fileupload",
+        "resourceGroup": "rg-cloudrelaygateway"
+      }
+    ],
+    "outputs": {},
+    "parameters": {
+      "cloudToDeviceFileContainerName": {
+        "type": "String",
+        "value": "cloud-relay-fileupload"
+      },
+      "deviceToCloudFileContainerName": {
+        "type": "String",
+        "value": "iothub-fileupload"
+      },
+      "iotHubCapacityUnits": {
+        "type": "Int",
+        "value": 1
+      },
+      "iotHubName": {
+        "type": "String",
+        "value": "shubi"
+      },
+      "iotHubSkuName": {
+        "type": "String",
+        "value": "S1"
+      },
+      "scheduledCallsConsumerGroupName": {
+        "type": "String",
+        "value": "scheduled-calls"
+      },
+      "storageAccountName": {
+        "type": "String",
+        "value": "kvfs"
+      }
+    },
+    "parametersLink": null,
+    "providers": [
+      {
+        "id": null,
+        "namespace": "Microsoft.Storage",
+        "providerAuthorizationConsentState": null,
+        "registrationPolicy": null,
+        "registrationState": null,
+        "resourceTypes": [
+          {
+            "aliases": null,
+            "apiProfiles": null,
+            "apiVersions": null,
+            "capabilities": null,
+            "defaultApiVersion": null,
+            "locationMappings": null,
+            "locations": [
+              "northcentralus"
+            ],
+            "properties": null,
+            "resourceType": "storageAccounts"
+          },
+          {
+            "aliases": null,
+            "apiProfiles": null,
+            "apiVersions": null,
+            "capabilities": null,
+            "defaultApiVersion": null,
+            "locationMappings": null,
+            "locations": [
+              null
+            ],
+            "properties": null,
+            "resourceType": "storageAccounts/blobServices/containers"
+          }
+        ]
+      },
+      {
+        "id": null,
+        "namespace": "Microsoft.Devices",
+        "providerAuthorizationConsentState": null,
+        "registrationPolicy": null,
+        "registrationState": null,
+        "resourceTypes": [
+          {
+            "aliases": null,
+            "apiProfiles": null,
+            "apiVersions": null,
+            "capabilities": null,
+            "defaultApiVersion": null,
+            "locationMappings": null,
+            "locations": [
+              "northcentralus"
+            ],
+            "properties": null,
+            "resourceType": "IotHubs"
+          },
+          {
+            "aliases": null,
+            "apiProfiles": null,
+            "apiVersions": null,
+            "capabilities": null,
+            "defaultApiVersion": null,
+            "locationMappings": null,
+            "locations": [
+              null
+            ],
+            "properties": null,
+            "resourceType": "IotHubs/eventHubEndpoints/ConsumerGroups"
+          }
+        ]
+      }
+    ],
+    "provisioningState": "Succeeded",
+    "templateHash": "12316374306271006128",
+    "templateLink": null,
+    "timestamp": "2022-02-28T17:10:12.910788+00:00",
+    "validatedResources": null
+  },
+  "resourceGroup": "rg-cloudrelaygateway",
+  "tags": null,
+  "type": "Microsoft.Resources/deployments"
+}
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+az group create --name rg-cloudrelaycompute --location "North Central US"
+{
+  "id": "/subscriptions/c22cc58e-afd1-4353-8e2c-7964567abf3f/resourceGroups/rg-cloudrelaycompute",
+  "location": "northcentralus",
+  "managedBy": null,
+  "name": "rg-cloudrelaycompute",
+  "properties": {
+    "provisioningState": "Succeeded"
+  },
+  "tags": null,
+  "type": "Microsoft.Resources/resourceGroups"
+}
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+PS C:\Users\David\git\CloudRelay> az group deployment create `
+>> --handle-extended-json-format `
+>> --name CloudRelayComputeDeployment `
+>> --resource-group rg-cloudrelaycompute `
+>> --template-file .\deploy\Distech.CloudRelay.ARM\Compute\Distech.CloudRelay.Compute.json `      
+>> --parameters .\deploy\Distech.CloudRelay.ARM\Compute\Distech.CloudRelay.Compute.Parameters.json
+Option '--handle-extended-json-format/-j' has been deprecated and will be removed in a future release.
+This command is implicitly deprecated because command group 'group deployment' is deprecated and will be removed in a future release. Use 'deployment group' instead.                      Length of the value should be greater than or equal to '1'. Please see https://aka.ms/arm-template/#parameters for usage
+Please provide string value for 'azureAdTenantId' (? for help): 70fe23b1-9a8f-4745-b1cd-97a9d2487448                                                                                      parameters.hostingPlanName.minLength'}}]}
+Please provide string value for 'azureAdClientId' (? for help): 654a93bb-725a-4fef-a563-2fe7f59a3dbc
+Please provide string value for 'iotHubName' (? for help): shubi
+Please provide string value for 'iotHubStorageAccountName' (? for help): kvfs
+Please provide string value for 'applicationInsightsName' (? for help): CloudRelayInsight
+Please provide string value for 'hostingPlanName' (? for help): ASP-rgcloudrelaycompute-a613
+Please provide string value for 'webSiteName' (? for help): klima
+Please provide string value for 'consumptionHostingPlanName' (? for help): ASP-rgcloudrelaycompute-8c93
+Please provide string value for 'functionAppName' (? for help): klimafunktions
+Please provide string value for 'functionAppStorageAccountName' (? for help): rgcloudrelaycomputea16e
+{
+  "id": "/subscriptions/c22cc58e-afd1-4353-8e2c-7964567abf3f/resourceGroups/rg-cloudrelaycompute/providers/Microsoft.Resources/deployments/CloudRelayComputeDeployment",
+  "location": null,
+  "name": "CloudRelayComputeDeployment",
+  "properties": {
+    "correlationId": "a64adb7a-e597-4d25-9e88-a178930388ad",
+    "debugSetting": null,
+    "dependencies": [
+      {
+        "dependsOn": [
+          {
+            "id": "/subscriptions/c22cc58e-afd1-4353-8e2c-7964567abf3f/resourceGroups/rg-cloudrelaycompute/providers/Microsoft.Web/serverfarms/ASP-rgcloudrelaycompute-a613",
+            "resourceGroup": "rg-cloudrelaycompute",
+            "resourceName": "ASP-rgcloudrelaycompute-a613",
+            "resourceType": "Microsoft.Web/serverfarms"
+          },
+          {
+            "apiVersion": "2016-09-01",
+            "id": "/subscriptions/c22cc58e-afd1-4353-8e2c-7964567abf3f/resourceGroups/rg-cloudrelaycompute/providers/Microsoft.Web/serverfarms/ASP-rgcloudrelaycompute-a613",
+            "resourceGroup": "rg-cloudrelaycompute",
+            "resourceName": "ASP-rgcloudrelaycompute-a613",
+            "resourceType": "Microsoft.Web/serverfarms"
+          }
+        ],
+        "id": "/subscriptions/c22cc58e-afd1-4353-8e2c-7964567abf3f/resourceGroups/rg-cloudrelaycompute/providers/Microsoft.Web/sites/klima",
+        "resourceGroup": "rg-cloudrelaycompute",
+        "resourceName": "klima",
+        "resourceType": "Microsoft.Web/sites"
+      },
+      {
+        "dependsOn": [
+          {
+            "id": "/subscriptions/c22cc58e-afd1-4353-8e2c-7964567abf3f/resourceGroups/rg-cloudrelaycompute/providers/Microsoft.Web/sites/klima",
+            "resourceGroup": "rg-cloudrelaycompute",
+            "resourceName": "klima",
+            "resourceType": "Microsoft.Web/sites"
+          },
+          {
+            "apiVersion": "2015-05-01",
+            "id": "/subscriptions/c22cc58e-afd1-4353-8e2c-7964567abf3f/resourceGroups/rg-cloudrelaycompute/providers/Microsoft.Insights/components/CloudRelayInsight",
+            "resourceGroup": "rg-cloudrelaycompute",
+            "resourceName": "CloudRelayInsight",
+            "resourceType": "Microsoft.Insights/components"
+          },
+          {
+            "apiVersion": "2018-04-01",
+            "id": "/subscriptions/c22cc58e-afd1-4353-8e2c-7964567abf3f/resourceGroups/rg-cloudrelaygateway/providers/Microsoft.Devices/Iothubs/shubi",
+            "resourceGroup": "rg-cloudrelaygateway",
+            "resourceName": "shubi",
+            "resourceType": "Microsoft.Devices/Iothubs"
+          }
+        ],
+        "id": "/subscriptions/c22cc58e-afd1-4353-8e2c-7964567abf3f/resourceGroups/rg-cloudrelaycompute/providers/Microsoft.Web/sites/klima/config/appsettings",
+        "resourceGroup": "rg-cloudrelaycompute",
+        "resourceName": "klima/appsettings",
+        "resourceType": "Microsoft.Web/sites/config"
+      },
+      {
+        "dependsOn": [
+          {
+            "id": "/subscriptions/c22cc58e-afd1-4353-8e2c-7964567abf3f/resourceGroups/rg-cloudrelaycompute/providers/Microsoft.Web/sites/klima",
+            "resourceGroup": "rg-cloudrelaycompute",
+            "resourceName": "klima",
+            "resourceType": "Microsoft.Web/sites"
+          },
+          {
+            "apiVersion": "2018-04-01",
+            "id": "/subscriptions/c22cc58e-afd1-4353-8e2c-7964567abf3f/resourceGroups/rg-cloudrelaygateway/providers/Microsoft.Devices/Iothubs/shubi",
+            "resourceGroup": "rg-cloudrelaygateway",
+            "resourceName": "shubi",
+            "resourceType": "Microsoft.Devices/Iothubs"
+          },
+          {
+            "actionName": "listKeys",
+            "apiVersion": "2018-04-01",
+            "id": "/subscriptions/c22cc58e-afd1-4353-8e2c-7964567abf3f/resourceGroups/rg-cloudrelaygateway/providers/Microsoft.Devices/Iothubs/shubi/IotHubKeys/service",
+            "resourceGroup": "rg-cloudrelaygateway",
+            "resourceName": "shubi/service",
+            "resourceType": "Microsoft.Devices/Iothubs/IotHubKeys"
+          },
+          {
+            "actionName": "listKeys",
+            "apiVersion": "2019-04-01",
+            "id": "/subscriptions/c22cc58e-afd1-4353-8e2c-7964567abf3f/resourceGroups/rg-cloudrelaygateway/providers/Microsoft.Storage/storageAccounts/kvfs",
+            "resourceGroup": "rg-cloudrelaygateway",
+            "resourceName": "kvfs",
+            "resourceType": "Microsoft.Storage/storageAccounts"
+          }
+        ],
+        "id": "/subscriptions/c22cc58e-afd1-4353-8e2c-7964567abf3f/resourceGroups/rg-cloudrelaycompute/providers/Microsoft.Web/sites/klima/config/connectionstrings",
+        "resourceGroup": "rg-cloudrelaycompute",
+        "resourceName": "klima/connectionstrings",
+        "resourceType": "Microsoft.Web/sites/config"
+      },
+      {
+        "dependsOn": [
+          {
+            "id": "/subscriptions/c22cc58e-afd1-4353-8e2c-7964567abf3f/resourceGroups/rg-cloudrelaycompute/providers/Microsoft.Web/serverfarms/ASP-rgcloudrelaycompute-a613",
+            "resourceGroup": "rg-cloudrelaycompute",
+            "resourceName": "ASP-rgcloudrelaycompute-a613",
+            "resourceType": "Microsoft.Web/serverfarms"
+          }
+        ],
+        "id": "/subscriptions/c22cc58e-afd1-4353-8e2c-7964567abf3f/resourceGroups/rg-cloudrelaycompute/providers/Microsoft.Insights/autoscalesettings/ASP-rgcloudrelaycompute-a613-rg-cloudrelaycompute",
+        "resourceGroup": "rg-cloudrelaycompute",
+        "resourceName": "ASP-rgcloudrelaycompute-a613-rg-cloudrelaycompute",
+        "resourceType": "Microsoft.Insights/autoscalesettings"
+      },
+      {
+        "dependsOn": [
+          {
+            "id": "/subscriptions/c22cc58e-afd1-4353-8e2c-7964567abf3f/resourceGroups/rg-cloudrelaycompute/providers/Microsoft.Web/serverfarms/ASP-rgcloudrelaycompute-8c93",
+            "resourceGroup": "rg-cloudrelaycompute",
+            "resourceName": "ASP-rgcloudrelaycompute-8c93",
+            "resourceType": "Microsoft.Web/serverfarms"
+          },
+          {
+            "id": "/subscriptions/c22cc58e-afd1-4353-8e2c-7964567abf3f/resourceGroups/rg-cloudrelaycompute/providers/Microsoft.Storage/storageAccounts/rgcloudrelaycomputea16e",
+            "resourceGroup": "rg-cloudrelaycompute",
+            "resourceName": "rgcloudrelaycomputea16e",
+            "resourceType": "Microsoft.Storage/storageAccounts"
+          },
+          {
+            "actionName": "listKeys",
+            "apiVersion": "2019-04-01",
+            "id": "/subscriptions/c22cc58e-afd1-4353-8e2c-7964567abf3f/resourceGroups/rg-cloudrelaycompute/providers/Microsoft.Storage/storageAccounts/rgcloudrelaycomputea16e",
+            "resourceGroup": "rg-cloudrelaycompute",
+            "resourceName": "rgcloudrelaycomputea16e",
+            "resourceType": "Microsoft.Storage/storageAccounts"
+          },
+          {
+            "apiVersion": "2015-05-01",
+            "id": "/subscriptions/c22cc58e-afd1-4353-8e2c-7964567abf3f/resourceGroups/rg-cloudrelaycompute/providers/Microsoft.Insights/components/CloudRelayInsight",
+            "resourceGroup": "rg-cloudrelaycompute",
+            "resourceName": "CloudRelayInsight",
+            "resourceType": "Microsoft.Insights/components"
+          },
+          {
+            "actionName": "listKeys",
+            "apiVersion": "2019-04-01",
+            "id": "/subscriptions/c22cc58e-afd1-4353-8e2c-7964567abf3f/resourceGroups/rg-cloudrelaygateway/providers/Microsoft.Storage/storageAccounts/kvfs",
+            "resourceGroup": "rg-cloudrelaygateway",
+            "resourceName": "kvfs",
+            "resourceType": "Microsoft.Storage/storageAccounts"
+          },
+          {
+            "apiVersion": "2018-04-01",
+            "id": "/subscriptions/c22cc58e-afd1-4353-8e2c-7964567abf3f/resourceGroups/rg-cloudrelaygateway/providers/Microsoft.Devices/Iothubs/shubi",
+            "resourceGroup": "rg-cloudrelaygateway",
+            "resourceName": "shubi",
+            "resourceType": "Microsoft.Devices/Iothubs"
+          }
+        ],
+        "id": "/subscriptions/c22cc58e-afd1-4353-8e2c-7964567abf3f/resourceGroups/rg-cloudrelaycompute/providers/Microsoft.Web/sites/klimafunktions",
+        "resourceGroup": "rg-cloudrelaycompute",
+        "resourceName": "klimafunktions",
+        "resourceType": "Microsoft.Web/sites"
+      }
+    ],
+    "duration": "PT43.8885665S",
+    "error": null,
+    "mode": "Incremental",
+    "onErrorDeployment": null,
+    "outputResources": [
+      {
+        "id": "/subscriptions/c22cc58e-afd1-4353-8e2c-7964567abf3f/resourceGroups/rg-cloudrelaycompute/providers/Microsoft.Insights/components/CloudRelayInsight",
+        "resourceGroup": "rg-cloudrelaycompute"
+      },
+      {
+        "id": "/subscriptions/c22cc58e-afd1-4353-8e2c-7964567abf3f/resourceGroups/rg-cloudrelaycompute/providers/Microsoft.Storage/storageAccounts/rgcloudrelaycomputea16e",
+        "resourceGroup": "rg-cloudrelaycompute"
+      },
+      {
+        "id": "/subscriptions/c22cc58e-afd1-4353-8e2c-7964567abf3f/resourceGroups/rg-cloudrelaycompute/providers/Microsoft.Web/serverfarms/ASP-rgcloudrelaycompute-8c93",
+        "resourceGroup": "rg-cloudrelaycompute"
+      },
+      {
+        "id": "/subscriptions/c22cc58e-afd1-4353-8e2c-7964567abf3f/resourceGroups/rg-cloudrelaycompute/providers/Microsoft.Web/serverfarms/ASP-rgcloudrelaycompute-a613",
+        "resourceGroup": "rg-cloudrelaycompute"
+      },
+      {
+        "id": "/subscriptions/c22cc58e-afd1-4353-8e2c-7964567abf3f/resourceGroups/rg-cloudrelaycompute/providers/Microsoft.Web/sites/klima",
+        "resourceGroup": "rg-cloudrelaycompute"
+      },
+      {
+        "id": "/subscriptions/c22cc58e-afd1-4353-8e2c-7964567abf3f/resourceGroups/rg-cloudrelaycompute/providers/Microsoft.Web/sites/klima/config/appsettings",
+        "resourceGroup": "rg-cloudrelaycompute"
+      },
+      {
+        "id": "/subscriptions/c22cc58e-afd1-4353-8e2c-7964567abf3f/resourceGroups/rg-cloudrelaycompute/providers/Microsoft.Web/sites/klima/config/connectionstrings",
+        "resourceGroup": "rg-cloudrelaycompute"
+      },
+      {
+        "id": "/subscriptions/c22cc58e-afd1-4353-8e2c-7964567abf3f/resourceGroups/rg-cloudrelaycompute/providers/Microsoft.Web/sites/klimafunktions",
+        "resourceGroup": "rg-cloudrelaycompute"
+      }
+    ],
+    "outputs": {},
+    "parameters": {
+      "applicationInsightsKey": {
+        "type": "String",
+        "value": ""
+      },
+      "applicationInsightsName": {
+        "type": "String",
+        "value": "CloudRelayInsight"
+      },
+      "azureAdClientId": {
+        "type": "String",
+        "value": "654a93bb-725a-4fef-a563-2fe7f59a3dbc"
+      },
+      "azureAdTenantId": {
+        "type": "String",
+        "value": "70fe23b1-9a8f-4745-b1cd-97a9d2487448"
+      },
+      "cloudToDeviceFileContainerName": {
+        "type": "String",
+        "value": "cloud-relay-fileupload"
+      },
+      "consumptionHostingPlanName": {
+        "type": "String",
+        "value": "ASP-rgcloudrelaycompute-8c93"
+      },
+      "functionAppName": {
+        "type": "String",
+        "value": "klimafunktions"
+      },
+      "functionAppStorageAccountName": {
+        "type": "String",
+        "value": "rgcloudrelaycomputea16e"
+      },
+      "hostingPlanName": {
+        "type": "String",
+        "value": "ASP-rgcloudrelaycompute-a613"
+      },
+      "hostingPlanResourceGroupName": {
+        "type": "String",
+        "value": ""
+      },
+      "hostingPlanSkuName": {
+        "type": "String",
+        "value": "B1"
+      },
+      "iotHubName": {
+        "type": "String",
+        "value": "shubi"
+      },
+      "iotHubResourceGroupName": {
+        "type": "String",
+        "value": "rg-cloudrelaygateway"
+      },
+      "iotHubServicePolicyName": {
+        "type": "String",
+        "value": "service"
+      },
+      "iotHubStorageAccountName": {
+        "type": "String",
+        "value": "kvfs"
+      },
+      "iotHubStorageAccountResourceGroupName": {
+        "type": "String",
+        "value": "rg-cloudrelaygateway"
+      },
+      "webSiteName": {
+        "type": "String",
+        "value": "klima"
+      }
+    },
+    "parametersLink": null,
+    "providers": [
+      {
+        "id": null,
+        "namespace": "Microsoft.Storage",
+        "providerAuthorizationConsentState": null,
+        "registrationPolicy": null,
+        "registrationState": null,
+        "resourceTypes": [
+          {
+            "aliases": null,
+            "apiProfiles": null,
+            "apiVersions": null,
+            "capabilities": null,
+            "defaultApiVersion": null,
+            "locationMappings": null,
+            "locations": [
+              "northcentralus"
+            ],
+            "properties": null,
+            "resourceType": "storageAccounts"
+          }
+        ]
+      },
+      {
+        "id": null,
+        "namespace": "Microsoft.Web",
+        "providerAuthorizationConsentState": null,
+        "registrationPolicy": null,
+        "registrationState": null,
+        "resourceTypes": [
+          {
+            "aliases": null,
+            "apiProfiles": null,
+            "apiVersions": null,
+            "capabilities": null,
+            "defaultApiVersion": null,
+            "locationMappings": null,
+            "locations": [
+              "northcentralus"
+            ],
+            "properties": null,
+            "resourceType": "serverfarms"
+          },
+          {
+            "aliases": null,
+            "apiProfiles": null,
+            "apiVersions": null,
+            "capabilities": null,
+            "defaultApiVersion": null,
+            "locationMappings": null,
+            "locations": [
+              "northcentralus"
+            ],
+            "properties": null,
+            "resourceType": "sites"
+          },
+          {
+            "aliases": null,
+            "apiProfiles": null,
+            "apiVersions": null,
+            "capabilities": null,
+            "defaultApiVersion": null,
+            "locationMappings": null,
+            "locations": [
+              null
+            ],
+            "properties": null,
+            "resourceType": "sites/config"
+          }
+        ]
+      },
+      {
+        "id": null,
+        "namespace": "Microsoft.Insights",
+        "providerAuthorizationConsentState": null,
+        "registrationPolicy": null,
+        "registrationState": null,
+        "resourceTypes": [
+          {
+            "aliases": null,
+            "apiProfiles": null,
+            "apiVersions": null,
+            "capabilities": null,
+            "defaultApiVersion": null,
+            "locationMappings": null,
+            "locations": [
+              "northcentralus"
+            ],
+            "properties": null,
+            "resourceType": "components"
+          }
+        ]
+      }
+    ],
+    "provisioningState": "Succeeded",
+    "templateHash": "14054761463585004066",
+    "templateLink": null,
+    "timestamp": "2022-03-01T04:49:58.560890+00:00",
+    "validatedResources": null
+  },
+  "resourceGroup": "rg-cloudrelaycompute",
+  "tags": null,
+  "type": "Microsoft.Resources/deployments"
+}
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+az webapp deployment source config-zip `
+>> --resource-group rg-cloudrelaycompute `
+>> --name klima `
+>> --src .\assets\Distech.CloudRelay.API.zip
+Getting scm site credentials for zip deployment
+Starting zip deployment. This operation can take a while to complete ...
+Deployment endpoint responded with status code 202
+{
+  "active": true,
+  "author": "N/A",
+  "author_email": "N/A",
+  "complete": true,
+  "deployer": "Push-Deployer",
+  "end_time": "2022-03-01T05:00:41.1402301Z",
+  "id": "19b3fa7a-c9ac-4a36-a91b-dcd9366449a7",
+  "is_readonly": true,
+  "is_temp": false,
+  "last_success_end_time": "2022-03-01T05:00:41.1402301Z",
+  "log_url": "https://klima.scm.azurewebsites.net/api/deployments/latest/log",
+  "message": "Created via a push deployment",
+  "progress": "",
+  "received_time": "2022-03-01T05:00:39.2290098Z",
+  "site_name": "klima",
+  "start_time": "2022-03-01T05:00:40.4456114Z",
+  "status": 4,
+  "status_text": "",
+  "url": "https://klima.scm.azurewebsites.net/api/deployments/latest"
+}
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+az functionapp deployment source config-zip `
+>> --resource-group rg-cloudrelaycompute `
+>> --name klimafunktions `
+>> --src .\assets\Distech.CloudRelay.Functions.zip
+Getting scm site credentials for zip deployment
+Starting zip deployment. This operation can take a while to complete ...
+Deployment endpoint responded with status code 202
+{
+  "active": true,
+  "author": "N/A",
+  "author_email": "N/A",
+  "complete": true,
+  "deployer": "ZipDeploy",
+  "end_time": "2022-03-01T05:03:02.3093944Z",
+  "id": "d2636d72601843dd9b6833b984e18017",
+  "is_readonly": true,
+  "is_temp": false,
+  "last_success_end_time": "2022-03-01T05:03:02.3093944Z",
+  "log_url": "https://klimafunktions.scm.azurewebsites.net/api/deployments/latest/log",
+  "message": "Created via a push deployment",
+  "progress": "",
+  "provisioningState": "Succeeded",
+  "received_time": "2022-03-01T05:03:00.0080535Z",
+  "site_name": "klimafunktions",
+  "start_time": "2022-03-01T05:03:00.757934Z",
+  "status": 4,
+  "status_text": "",
+  "url": "https://klimafunktions.scm.azurewebsites.net/api/deployments/latest"
+}
